@@ -1,0 +1,116 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(./img/background.jpg) bottom center;
+  background-size: cover;
+}
+
+html {
+  font-size: 10px;
+}
+
+.keys {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys .key {
+  width: 10rem;
+  margin: 1rem;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  transition: all 0.07s ease;
+}
+
+.keys .key kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.keys div:nth-child(1) {
+  color: #ffc800c6;
+}
+.keys div:nth-child(2) {
+  color: rgb(0, 175, 245);
+}
+.keys div:nth-child(3) {
+  color: rgb(101, 255, 165);
+}
+.keys div:nth-child(4) {
+  color: rgb(255, 6, 6);
+}
+.keys div:nth-child(5) {
+  color: rgb(249, 255, 78);
+}
+.keys div:nth-child(6) {
+  color: rgb(255, 0, 221);
+}
+.keys div:nth-child(7) {
+  color: rgba(6, 174, 174, 0.777);
+}
+.keys div:nth-child(8) {
+  color: rgb(180, 123, 255);
+}
+.keys div:nth-child(9) {
+  color: #fff;
+}
+
+.playing {
+  transform: scale(1.1);
+}
+.playing:nth-child(1) {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.playing:nth-child(2) {
+  border-color: rgb(76, 204, 255);
+  box-shadow: 0 0 1rem rgb(76, 204, 255);
+}
+
+.playing:nth-child(3) {
+  border-color: rgb(101, 255, 165);
+  box-shadow: 0 0 1rem rgb(101, 255, 165);
+}
+
+.playing:nth-child(4) {
+  border-color: rgb(255, 6, 6);
+  box-shadow: 0 0 1rem rgb(255, 6, 6);
+}
+
+.playing:nth-child(5) {
+  border-color: rgb(249, 255, 78);
+  box-shadow: 0 0 1rem rgb(249, 255, 78);
+}
+
+.playing:nth-child(6) {
+  border-color: rgb(255, 0, 221);
+  box-shadow: 0 0 1rem rgb(255, 0, 221);
+}
+.playing:nth-child(7) {
+  border-color: rgba(6, 174, 174, 0.777);
+  box-shadow: 0 0 1rem rgba(6, 174, 174, 0.777);
+}
+.playing:nth-child(8) {
+  border-color: rgb(180, 123, 255);
+  box-shadow: 0 0 1rem rgb(180, 123, 255);
+}
+.playing:nth-child(9) {
+  border-color: #fff;
+  box-shadow: 0 0 1rem #fff;
+}
