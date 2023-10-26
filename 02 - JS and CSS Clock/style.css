@@ -6,10 +6,6 @@ html {
   font-size: 10px;
 }
 
-body {
-  overflow: hidden;
-}
-
 .component {
   font-size: 2rem;
   flex: 1;
