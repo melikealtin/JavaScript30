@@ -1,0 +1,41 @@
+:root {
+  --base: #98cbdf;
+  --spacing: 10px;
+  --blur: 0px;
+  --brightness: 100%;
+  --grayscale: 0%;
+  --sepia: 0%;
+  --saturate: 100%;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur)) brightness(var(--brightness))
+    grayscale(var(--grayscale)) sepia(var(--sepia)) saturate(var(--saturate));
+}
+
+.hl {
+  color: var(--base);
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #5894af;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 50px;
+}
