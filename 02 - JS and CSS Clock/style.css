@@ -40,6 +40,7 @@ html {
   height: 100%;
   transform: translateY(-3px);
 }
+
 .clock-face::before {
   background-color: #68cfff;
   border-radius: 50%;
