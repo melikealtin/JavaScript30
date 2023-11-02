@@ -1,5 +1,5 @@
 # JavaScript30
-Participating in JavaScript30 created by Wes Bos.
+[JavaScript30](https://javascript30.com/) is a free course created by Wes Bos. This course is packed with small and fun projects aimed at improving your vanilla JavaScript skills.
 
 
 No | Title               | Demo         |
