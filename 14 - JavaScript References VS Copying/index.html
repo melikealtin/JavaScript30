@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS References VS Copying</title>
+  </head>
+  <body>
+    <p><em>Have a look at the JavaScript Console.</em></p>
+    <script>
+      // start with strings, numbers and booleans:
+      //   let age = 100;
+      //   let age2 = age;
+      //   console.log(age, age2);
+      //   age2 = 200;
+      //   console.log(age, age2);
+
+      //   let title = "wes";
+      //   let title2 = title;
+      //   console.log(title, title2);
+      //   title2 = "bos";
+      //   console.log(title, title2);
+
+      // Let's say we have an array:
+      const players = ["Wes", "Sarah", "Ryan", "Poppy"];
+      // and we want to make a copy of it.
+      //   const team = players;
+      //   console.log(players, team);
+
+      //   team[3] = "melo";
+      //   console.log(players, team);
+
+      const team2 = players.slice();
+      team2[3] = "melo";
+      console.log(players, team2);
+
+      // create a new array and concat the old one in
+      const team3 = [].concat(players);
+      team3[3] = "cool";
+      console.log(players, team3);
+
+      // or use the new ES6 Spread
+      const team4 = [...players];
+      team4[3] = "heeeee";
+      console.log(players, team4);
+
+      const team5 = Array.from(players);
+      team5[3] = "hawww";
+      console.log(players, team5);
+
+      ////////////
+
+      const person = {
+        name: "Web bos",
+        age: 80,
+      };
+
+      const captain = Object.assign({}, person, { number: 99 });
+      console.log(captain);
+
+      const cap2 = { ...captain };
+      cap2.age = 15;
+      console.log(person, cap2);
+
+      ///////////////
+
+      const wes = {
+        name: "wes",
+        age: 100,
+        social: {
+          twitter: "@wesbos",
+          facebook: "wesbos.developer",
+        },
+      };
+
+      const dev = Object.assign({}, wes, { name: "dev" });
+
+      dev.social.twitter = "@dev";
+      console.log(dev);
+      console.log(wes);
+
+      //Here we have a nested ingredients list, then we make a deep copy of it using JSON.parse(JSON.stringify(object))
+      let ingredients_list = ["noodles", { list: ["eggs", "flour", "water"] }];
+      let ingredients_list_deepcopy = JSON.parse(
+        JSON.stringify(ingredients_list)
+      );
+
+      ingredients_list_deepcopy[1].list = ["rice flour", "water"];
+      console.log(ingredients_list[1].list);
+
+      // StructuredClone() is a global method which allows you to create a deep copy of an object.
+      let wizards = [
+        {
+          name: "Radagast",
+          color: "brown",
+        },
+        {
+          name: "Gandalf",
+          color: "gray",
+        },
+      ];
+
+      let wizardsCopy = structuredClone(wizards);
+
+      wizardsCopy.push({
+        name: "Ursula",
+        color: "purple",
+      });
+      // Update a nested object
+      wizardsCopy[0].name = "Merlin";
+      // The original array remains unchanged
+      console.log(wizards);
+      console.log(wizardsCopy);
+    </script>
+  </body>
+</html>
