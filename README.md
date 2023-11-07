@@ -2,20 +2,20 @@
 
 [JavaScript30](https://javascript30.com/) is a free course created by Wes Bos. This course is packed with small and fun projects aimed at improving your vanilla JavaScript skills.
 
-| No  | Title                                                                                                                                       |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [JavaScript Drum Kit](https://github.com/melikealtin/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)                             |
-| 02  | [JS and CSS Clock](https://github.com/melikealtin/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)                                 |
-| 03  | [CSS Variables](https://github.com/melikealtin/JavaScript30/tree/master/03%20-%20CSS%20Variables)                                           |
-| 04  | [Array Cardio Day 1](https://github.com/melikealtin/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201)                             |
-| 05  | [Flex Panel Gallery](https://github.com/melikealtin/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)                               |
-| 06  | [Type Ahead](https://github.com/melikealtin/JavaScript30/tree/master/06%20-%20Type%20Ahead)                                                 |
-| 07  | [Array Cardio Day 2](https://github.com/melikealtin/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202)                             |
-| 08  | [Fun with HTML5 Canvas](https://github.com/melikealtin/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)                       |
-| 09  | [Dev Tools Domination](https://github.com/melikealtin/JavaScript30/tree/master/09%20-%20Dev%20Tools%20Domination)                           |
-| 10  | [Hold Shift and Check Checkboxes](https://github.com/melikealtin/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes) |
-| 11  | [Custom Video Player](https://github.com/melikealtin/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)                             |
-| 12  | [Key Sequence Detection](https://github.com/melikealtin/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)                       |
-| 13  | [Slide in on Scroll](https://github.com/melikealtin/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)                             |
-| 14  | [JavaScript References VS Copying](https://github.com/melikealtin/JavaScript30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying) |
-| 15  | [LocalStorage and Event Delegation](https://github.com/melikealtin/JavaScript30/tree/master/15-%20LocalStorage%20and%20Event%20Delegation)  |
+| No  | Title                                                                                                                                       | Demo                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [JavaScript Drum Kit](https://github.com/melikealtin/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)                             | [Demo](https://java-script30-mauve.vercel.app/)                                                                            |
+| 02  | [JS and CSS Clock](https://github.com/melikealtin/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)                                 | [Demo](https://java-script30-vtp6.vercel.app/)                                                                             |
+| 03  | [CSS Variables](https://github.com/melikealtin/JavaScript30/tree/master/03%20-%20CSS%20Variables)                                           | [Demo](https://java-script30-zitk.vercel.app/)                                                                             |
+| 04  | [Array Cardio Day 1](https://github.com/melikealtin/JavaScript30/tree/master/04%20-%20Array%20Cardio%20Day%201)                             | [Demo](https://deft-alfajores-58db3e.netlify.app/)                                                                         |
+| 05  | [Flex Panel Gallery](https://github.com/melikealtin/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)                               | [Demo](https://flourishing-babka-52fdde.netlify.app/)                                                                      |
+| 06  | [Type Ahead](https://github.com/melikealtin/JavaScript30/tree/master/06%20-%20Type%20Ahead)                                                 | [Demo](https://unrivaled-puffpuff-b8c137.netlify.app/)                                                                     |
+| 07  | [Array Cardio Day 2](https://github.com/melikealtin/JavaScript30/tree/master/07%20-%20Array%20Cardio%20Day%202)                             | [Demo](https://fastidious-daffodil-1e8fad.netlify.app/)                                                                    |
+| 08  | [Fun with HTML5 Canvas](https://github.com/melikealtin/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)                       | [Demo](https://willowy-fudge-db4ffd.netlify.app/)                                                                          |
+| 09  | [Dev Tools Domination](https://github.com/melikealtin/JavaScript30/tree/master/09%20-%20Dev%20Tools%20Domination)                           | [Demo](https://celadon-cannoli-78e215.netlify.app/)                                                                        |
+| 10  | [Hold Shift and Check Checkboxes](https://github.com/melikealtin/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes) | [Demo](https://ubiquitous-blini-a336d9.netlify.app/)                                                                       |
+| 11  | [Custom Video Player](https://github.com/melikealtin/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)                             | [Demo](https://zesty-flan-900a43.netlify.app/)                                                                             |
+| 12  | [Key Sequence Detection](https://github.com/melikealtin/JavaScript30/tree/master/12%20-%20Key%20Sequence%20Detection)                       | [Demo](https://aquamarine-kataifi-753771.netlify.app/)                                                                     |
+| 13  | [Slide in on Scroll](https://github.com/melikealtin/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)                             | [Demo](https://wonderful-taiyaki-9c958b.netlify.app/)                                                                      |
+| 14  | [JavaScript References VS Copying](https://github.com/melikealtin/JavaScript30/tree/master/14%20-%20JavaScript%20References%20VS%20Copying) | [Demo](https://github.com/melikealtin/JavaScript30/blob/master/14%20-%20JavaScript%20References%20VS%20Copying/index.html) |
+| 15  | [LocalStorage and Event Delegation](https://github.com/melikealtin/JavaScript30/tree/master/15-%20LocalStorage%20and%20Event%20Delegation)  | [Demo](https://master--jovial-bublanina-c91051.netlify.app/)                                                               |
