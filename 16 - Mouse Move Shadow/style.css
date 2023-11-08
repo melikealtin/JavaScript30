@@ -1,0 +1,22 @@
+html {
+  color: black;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom right, rgb(123, 39, 197), #260263);
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+h1 {
+  text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+  font-size: 100px;
+}
