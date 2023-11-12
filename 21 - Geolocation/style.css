@@ -1,0 +1,36 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(80, 33, 156);
+  background-size: 16px 16px;
+  background-attachment: fixed;
+}
+
+.arrow {
+  width: 250px;
+  overflow: hidden;
+  transition: all 0.2s;
+  transform: rotate(0deg);
+  display: inline-block;
+}
+
+h1 {
+  color: #111127;
+  font-weight: 100;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.units {
+  font-size: 15px;
+}
