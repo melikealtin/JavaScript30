@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #f2f2f2;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+.display__time-left {
+  font-weight: 100;
+  font-size: 20rem;
+  margin: 0;
+  color: #f34b8c;
+}
+
+.timer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.timer__controls {
+  display: flex;
+}
+
+.timer__controls > * {
+  flex: 1;
+}
+
+.timer__controls form {
+  flex: 1;
+  display: flex;
+}
+
+.timer__controls input {
+  flex: 1;
+  border: 0;
+  padding: 2rem;
+  outline: 0;
+  border-bottom: 3px solid #f34b8c;
+}
+
+.timer__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: #f34b8c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.01);
+  border-bottom: 3px solid #f34b8c;
+  border-right: 1px solid #f34b8c;
+  padding: 1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.timer__button:hover,
+.timer__button:focus {
+  background: rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+
+.display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display__end-time {
+  font-size: 4rem;
+  color: black;
+}
